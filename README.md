@@ -34,7 +34,7 @@ This project demonstrates real-world frontend concepts like API caching, state m
 | **LocalStorage** | Data Persistence            |
 | **FakeStoreAPI** | Demo Products API           |
 
-
+'''
 🎯 Core Features
 
 ✅ Product Catalog
@@ -83,9 +83,12 @@ This project demonstrates real-world frontend concepts like API caching, state m
 ✔ View full product info
 ✔ Description, price, rating
 
+'''
+
+
 📂 Folder Structure
 
-
+'''
 src/
  ├── components/
  │   └── Navbar.jsx
@@ -105,8 +108,10 @@ src/
  ├── App.js
  └── index.js
 
-⚡ React Query — What & Why?
+'''
 
+⚡ React Query — What & Why?
+----
 React Query is used to:
 
 ✔ Fetch API data
@@ -116,20 +121,19 @@ React Query is used to:
 ✔ Manage loading & error states
 
 🔑 Query Key
-
+--
 queryKey: ['products', page]
-
-
 👉 changes per page → new cached dataset
 
-⏳ Stale Time
 
+⏳ Stale Time
+--
 staleTime: 5 * 60 * 1000
 ✔ Data stays “fresh” for 5 mins
 ✔ Prevents unnecessary refetch
 
 🎯 Select Function (Client Pagination)
-
+----
 select: (data) => {
   const pageSize = 9;
   const start = (page - 1) * pageSize;
@@ -143,9 +147,9 @@ select: (data) => {
 👉 Performs transformation without extra re-render
 
 🧠 Cart Logic Highlights
-
+----
 ➕ Add to Cart
-
+--
 if (existing) qty++
 else add new
 
@@ -154,12 +158,12 @@ else add new
 removes automatically at 0
 
 💾 Persistence
-
+--
 localStorage.setItem('cart', JSON.stringify(cart))
 
 
 🛠️ Installation & Running Locally
-
+----
 git clone <repo-url>
 cd react-query-product-catalog
 npm install
@@ -171,7 +175,7 @@ http://localhost:3000
 
 
 🧪 Future Enhancements
-
+----
 🔐 Login / Signup (JWT / Firebase)
 
 💳 Payment gateway integration
@@ -186,9 +190,9 @@ http://localhost:3000
 
 🌓 Dark / Light mode
 
-
+'''
 🏁 Learning Outcomes
-
+----
 By completing this project, you understand:
 
 ✔ React functional components
@@ -198,3 +202,4 @@ By completing this project, you understand:
 ✔ Client-side state management
 ✔ LocalStorage persistence
 ✔ Real-world e-commerce logic
+'''
