@@ -34,7 +34,7 @@ This project demonstrates real-world frontend concepts like API caching, state m
 | **LocalStorage** | Data Persistence            |
 | **FakeStoreAPI** | Demo Products API           |
 
-'''
+
 🎯 Core Features
 
 ✅ Product Catalog
@@ -83,12 +83,12 @@ This project demonstrates real-world frontend concepts like API caching, state m
 ✔ View full product info
 ✔ Description, price, rating
 
-'''
+
 
 
 📂 Folder Structure
+----
 
-'''
 src/
  ├── components/
  │   └── Navbar.jsx
@@ -108,7 +108,7 @@ src/
  ├── App.js
  └── index.js
 
-'''
+
 
 ⚡ React Query — What & Why?
 ----
@@ -190,7 +190,7 @@ http://localhost:3000
 
 🌓 Dark / Light mode
 
-'''
+
 🏁 Learning Outcomes
 ----
 By completing this project, you understand:
@@ -202,4 +202,4 @@ By completing this project, you understand:
 ✔ Client-side state management
 ✔ LocalStorage persistence
 ✔ Real-world e-commerce logic
-'''
+
